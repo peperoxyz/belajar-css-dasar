@@ -34,11 +34,12 @@ Artinya: select semua anchor yang belum pernah dikunjungi
 Artinya: select semua anchor yang sudah pernah dikunjungi
 
 2. Pseudo Elements
-```p::first-letter {
-   font-size: 32px;
-   font-weight: bold;
-   color: saddlebrown;
-   }
+```
+p::first-letter {
+font-size: 32px;
+font-weight: bold;
+color: saddlebrown;
+}
 ```
 Artinya: select karakter pertama pada sebuah paragraf dan terapkan stylingnya
 
