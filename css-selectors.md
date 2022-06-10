@@ -22,7 +22,7 @@ Artinya: select tag dengan ID uniqueID
 ``` a[href="www.awebsite.com"] {property: value;} ```
 Artinya: select tag anchor dengan atribut href tersebut
 
-### Pseudo-Classes and Pseudo-Elements
+#### Pseudo-Classes and Pseudo-Elements
 1. Pseudo Classes
 ``` a:hover {property: value;}```
 Artinya: select semua anchor ketika di-hover
