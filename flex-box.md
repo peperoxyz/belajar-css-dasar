@@ -14,6 +14,31 @@ Flex container: wadah container yang menampung beberapa flex-item. Secara defaul
 
 Untuk membuat flex-container, kita gunakan properti ```display: flex```. Seluruh anak dari container tersebut akan menjadi flex item.
 
+#### Properti untuk flex container
+- ```display: flex```
+- ```flex-direction: row``` : untuk mengatur arah dari urutan elemen2 di dalam flex-container secara horizontal
+- ```flex-direction: column``` : untuk mengatur arah dari urutan elemen2 di dalam flex-container secara vertical
+- ```flex-wrap: wrap``` : untuk membuat item ter-wrap ketika tidak cukup
+
+##### Justify Content: Mengatur spacing antar flex items
+- ``` justify-content: flex-start ```: rata kiri
+- ``` justify-content: flex-end ```: rata kanan
+- ``` justify-content: center ```: rata tengah
+- ``` justify-content: space-between ```: elemen awal-rata kiri, elemen akhir-rata kanan, sisanya akan diberi jarak yang sama.
+- ``` justify-content: space-around ```: membagi rata setiap sisi kanan dan kiri dari tiap elemen.
+- ``` justify-content: space-evenly```
+
+##### Align Items: Mengatur kesejajaran antar items secara vertikal dengan container | Alignt Content: Sama seperti align items, namun berlaku untuk item dengan lebih dari 2 baris
+- ``` align-items: flex-start ```: rata kiri
+- ``` align-items: flex-end ```: rata kanan
+- ``` align-items: center ```: rata tengah
+- ``` align-items: stretch ```: memenuhi parent (ketika kita tidak memberikan height pada flex item)
+- ``` align-items: baseline ```
+
+#### Properti untuk flex items
+- ``` order: 1 ```: untuk mengubah urutan konten tanpa mengubah HTML
+- ``` flex-grow ```: untuk menentukan ukuran pada items, tanpa mengatur width dan height
+
 ### Flex Grow
 Properti ```flex-grow``` ini digunakan untuk memberitahu berapa banyak ukuran yang harus ditetapkan oleh flex-item. Nilai dari properti ini bukan nilai dari dimensi asli pada flex item, melainkan nilai yang relatif terhadap ruang kosong pada flex container.
 
